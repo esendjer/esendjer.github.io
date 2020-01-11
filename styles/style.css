@@ -1,0 +1,92 @@
+body {
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: rgb(42, 42, 46);
+    color: rgba(249, 249, 250, 0.8);
+}
+
+/* BEGIN (write your solution here) */
+p {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(249, 249, 250, 0.8);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+ul, nl {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#header {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#header > h2:nth-child(2) {
+ border-bottom-width: 0px;
+}
+
+#footer{
+    margin-top: 64px;
+    text-align: center;
+}
+
+.span-jobtitle {
+    font-variant: small-caps;
+}
+
+.span-date {
+    font-style: italic;
+}
+
+a {
+    color: rgb(69, 161, 255);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+/* END */
