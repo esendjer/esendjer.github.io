@@ -6,11 +6,10 @@ body {
     line-height: 1.5;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: rgb(42, 42, 46);
-    color: rgba(249, 249, 250, 0.8);
+    background-color: rgba(249, 249, 250, 0.8);
+    color: rgb(42, 42, 46);
 }
 
-/* BEGIN (write your solution here) */
 p {
     margin-bottom: 30px;
 }
@@ -31,7 +30,7 @@ h2 {
     margin-bottom: 8px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: rgba(249, 249, 250, 0.8);
+    /* border-bottom-color: rgba(249, 249, 250, 0.8); */
 }
 
 h3 {
@@ -49,17 +48,53 @@ ul, nl {
 }
 
 #header {
-    margin-bottom: 32px;
     text-align: center;
 }
 
-#header > h2:nth-child(2) {
- border-bottom-width: 0px;
+.header-h2 {
+  border-bottom-width: 0px;
 }
 
 #footer{
     margin-top: 64px;
     text-align: center;
+}
+
+#headshot-img {
+    float: left;
+    width: 122px;
+    height: 122px;
+    border-top-left-radius: 72px;
+    border-bottom-right-radius: 72px;
+    border-top-right-radius: 72px;
+    border-bottom-left-radius: 72px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
+#headshot {
+  width: max-content;
+  height: max-content;
+  float: left;
+}
+
+#header-text {
+  float: left;
+  width: max-content;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+#header-main {
+  margin: 0 auto;
+  max-width: max-content;
+}
+
+#head-links {
+  text-align-last: center;
 }
 
 .span-jobtitle {
