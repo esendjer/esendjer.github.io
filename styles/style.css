@@ -89,12 +89,23 @@ ul, nl {
 }
 
 #header-main {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 10px;
   max-width: max-content;
+  height: 140px;
 }
 
 #head-links {
-  text-align-last: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#main {
+  margin-top: 42px;
+}
+
+.header-h2 {
+  margin-bottom: 5px;
 }
 
 .span-jobtitle {
