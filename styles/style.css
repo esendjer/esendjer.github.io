@@ -116,6 +116,35 @@ ul, nl {
     font-style: italic;
 }
 
+/** Social Button CSS -- begin **/
+
+.share-btn {
+  display: inline-block;
+  color: #ffffff;
+  border: none;
+  padding: 0.1em 0.6em;
+  outline: none;
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0 0.2em;
+}
+
+.share-btn:focus,
+.share-btn:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.share-btn:active {
+  color: #e2e2e2;
+}
+
+.share-btn.github { background: #444444; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email { background: #3B5998; }
+
+/** Social Button CSS -- enf**/
+
 a {
     color: rgb(69, 161, 255);
 }
@@ -135,4 +164,3 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-/* END */
