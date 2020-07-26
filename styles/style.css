@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0 auto;   /* center content */
     max-width: 800px; /* limit width */
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 0px;
 }
 
@@ -30,7 +30,7 @@ h2 {
     margin-bottom: 8px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    /* border-bottom-color: rgba(249, 249, 250, 0.8); */
+    /*! border-bottom-color: rgba(249, 249, 250, 0.8); */
 }
 
 h3 {
@@ -62,12 +62,12 @@ ul, nl {
 
 #headshot-img {
     float: left;
-    width: 122px;
-    height: 122px;
-    border-top-left-radius: 72px;
-    border-bottom-right-radius: 72px;
-    border-top-right-radius: 72px;
-    border-bottom-left-radius: 72px;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -90,9 +90,9 @@ ul, nl {
 
 #header-main {
   margin: auto;
-  margin-top: 10px;
+  margin-top: 24px;
   max-width: max-content;
-  height: 140px;
+  height: 160px;
 }
 
 #head-links {
@@ -104,12 +104,26 @@ ul, nl {
   margin-top: 42px;
 }
 
+#main > h2 {
+ font-weight: bolder;
+ font-size: 34px;
+}
+
+#main > h3 {
+ font-weight: bold;
+}
+
+#right {
+    text-align: right;
+}
+
 .header-h2 {
   margin-bottom: 5px;
 }
 
 .span-jobtitle {
     font-variant: small-caps;
+    font-weight: bold;
 }
 
 .span-date {
@@ -140,6 +154,7 @@ ul, nl {
 }
 
 .share-btn.github { background: #444444; }
+.share-btn.prtfl { background: #1accf5; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #3B5998; }
 
